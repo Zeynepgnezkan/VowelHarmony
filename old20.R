@@ -10,7 +10,7 @@ head(basque.words)
 ald(basque.words[1:10],basque.words,20)
 old20(basque.words[1:10],basque.words)
 
-All_words <- read_excel("matched_new.xlsx")
+All_words <- read_excel("matched_research.xlsx")
 Corpus <- read_excel("Tur.Freq.3.Hun.xlsx")
 
 # Convert the column to a list
