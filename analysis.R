@@ -68,6 +68,7 @@ vh.preproc <- function(data_dir = "Analysis/data"){
 
 
 test_data <- vh.preproc(data_dir = "Analysis/data")
+writexl::write_xlsx(test_data, "raw_data.xlsx")
 library(tidyverse)
 x <- test_data %>% group_by(isHarmonic_A1,target_cond) %>% summarise(meanrt = mean(key_respTest.rt, na.rm = T ),
                                                                      meanacc = mean(key_respTest.corr, na.rm =T))

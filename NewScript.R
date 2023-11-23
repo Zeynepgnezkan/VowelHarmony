@@ -15,23 +15,26 @@ df1 <- df %>%
   select(-notharmonic,-harmonic)
   
 
+Words <- read_excel("Tur.Freq.3.Hun.xlsx")
 
-Words <- read_excel("TR_corpus.xlsx")
+# Words_df <- Words %>%
+#   mutate(length = str_count(Words, "[A-Za-z]"),
+#          logFreq = log(Freq)) %>%
+#   subset(length <= 8) %>%
+#   subset(length >= 4) %>%
+#   subset(logFreq >= 10) %>%
+#   subset(Type == "Noun")
 
-Words_df <- Words %>%
-  mutate(length = str_count(Words, "[A-Za-z]"),
-         logFreq = log(Freq)) %>%
-  subset(length <= 8) %>%
-  subset(length >= 4) %>%
-  subset(logFreq >= 10) %>%
-  subset(Type == "Noun")
-
-df1 <- Words_df %>%
-  filter(str_count(Words, "[aeiıouöüAEIOUÖÜİ]") != 1) %>%
-  mutate(harmonic = grepl("a|o|ı|u", Words, ignore.case = TRUE) & !grepl("e|i|ö|ü", Words, ignore.case = TRUE) | 
-           grepl("e|i|ö|ü", Words, ignore.case = TRUE) & !grepl("a|ı|o|u", Words, ignore.case = TRUE),
-         notharmonic = grepl("a|o|ı|u", Words, ignore.case = TRUE) & grepl("e|i|ö|ü", Words, ignore.case = TRUE) | 
-           grepl("e|i|ö|ü", Words, ignore.case = TRUE) & grepl("a|ı|o|u", Words, ignore.case = TRUE)) %>%
+df1 <- Words %>% mutate(length = str_count(Word, "[A-Za-z]")) %>% filter(length < 7) %>% filter(length > 3) %>%
+  filter(str_count(Word, "[aeiıouöüAEIOUÖÜİ]") != 1) %>%
+  filter(str_count(Word, "[aeiıouöüAEIOUÖÜİ]") != 0) %>%
+  filter(str_count(Word, "[qQxXwW]") == 0) %>%
+  filter(str_count(Word, "[ ]") == 0) %>%
+  filter(str_count(Word, "-") == 0) %>%
+  mutate(harmonic = grepl("a|o|ı|u", Word, ignore.case = TRUE) & !grepl("e|i|ö|ü", Word, ignore.case = TRUE) | 
+           grepl("e|i|ö|ü", Word, ignore.case = TRUE) & !grepl("a|ı|o|u", Word, ignore.case = TRUE),
+         notharmonic = grepl("a|o|ı|u", Word, ignore.case = TRUE) & grepl("e|i|ö|ü", Word, ignore.case = TRUE) | 
+           grepl("e|i|ö|ü", Word, ignore.case = TRUE) & grepl("a|ı|o|u", Word, ignore.case = TRUE)) %>%
   mutate(harmonic = ifelse(harmonic, "harmonic",NA),
          notharmonic = ifelse(notharmonic,"notharmonic",NA)) %>%
   mutate(isHarmonic = coalesce(harmonic, notharmonic)) %>%
@@ -40,6 +43,7 @@ df1 <- Words_df %>%
 
 
 table(df1$isHarmonic,df1$length)
+
 writexl:::write_xlsx(df1, "Words_filtered.xlsx")
 colnames(Words_filtered)
 
