@@ -13,22 +13,19 @@ library(vwr)
 # old20(basque.words[1:10],basque.words)
 
 # Get the corpus and words
-All_words <- read_excel("matched_research.xlsx")
+All_words <- read_excel("All_words.xlsx")
 Corpus <- read_excel("Tur.Freq.3.Hun.xlsx")
 
 # Convert the column to a list
-All_list_A1 <- as.list(All_words$A1)
-All_list_A2 <- as.list(All_words$A2)
+All_list <- as.list(df1$Word)
 Corpus_list <- as.list(Corpus$Word)
 
 # Get Old20s'
-old20_A1<- old20(All_list_A1,Corpus_list)
-old20_A2<- old20(All_list_A2,Corpus_list)
+old20<- old20(All_list,Corpus_list)
 
 # Matched lists with original data frames
-Matched_old_A1 <- data.frame(A1 = names(old20_A1), old20_A1 = unname(old20_A1))
-Matched_old_A2 <- data.frame(A2 = names(old20_A2), old20_A2 = unname(old20_A2))
-All_words <- All_words %>% left_join(Matched_old_A1,by = "A1") %>% left_join(Matched_old_A2,by = "A2")
+Matched_old <- data.frame(Word = names(old20), old20_new = unname(old20))
+All_words <- df1 %>% left_join(Matched_old,by = "Word")
 
 # Save is as excel
-writexl::write_xlsx(All_words,"All_matched_old20.xlsx")
+writexl::write_xlsx(df1,"All_words_n.xlsx")

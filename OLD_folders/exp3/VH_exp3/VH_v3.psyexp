@@ -1,0 +1,1322 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.2.3">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="https://app.prolific.com/submissions/complete?cc=CC0KBFHH" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': '', 'session': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1440, 900]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0.5, 0.5, 0.5]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="VH_v3" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="Instraction">
+      <RoutineSettingsComponent name="Instraction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Instraction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <UnknownComponent name="Instraction_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Instraction_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </UnknownComponent>
+      <TextComponent name="textınstraction" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textınstraction" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Asıl teste geçmektesiniz. Deneydeki göreviniz, ekrana çıkacak Türkçe sözcüklerin kelime olup olmadığını belirlemenizdir. Testte geri bildirim olmayacaktır.&amp;#10;Kelimedir: &quot;m&quot;&amp;#10;Kelime değildir: &quot;z&quot;&amp;#10;&amp;#10;Teste başlamak için BOŞLUK tuşuna basınız. " valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respınstraction" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respınstraction" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Feedback">
+      <RoutineSettingsComponent name="Feedback" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Feedback" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <UnknownComponent name="Feedback_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Feedback_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </UnknownComponent>
+      <CodeComponent name="codefeedback" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="corr = []&amp;#10;msg = ''&amp;#10;msgColor = []&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="corr = [];&amp;#10;msg = &quot;&quot;;&amp;#10;msgColor = [];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((rt &lt; 2)) {&amp;#10;    if ((corr === 1)) {&amp;#10;        msg = &quot;DO\u011eRU !&quot;;&amp;#10;        msgColor = &quot;black&quot;;&amp;#10;    } else {&amp;#10;        msg = &quot;YANLI\u015e !&quot;;&amp;#10;        msgColor = &quot;black&quot;;&amp;#10;    }&amp;#10;} else {&amp;#10;    msg = &quot;YAVA\u015e CEVAP !&quot;;&amp;#10;    msgColor = &quot;black&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if rt &lt; 2 :&amp;#10;    if corr == 1:&amp;#10;        msg = 'DOĞRU !'&amp;#10;        msgColor = 'black'&amp;#10;    else:&amp;#10;        msg = 'YANLIŞ !'&amp;#10;        msgColor = 'black'&amp;#10;else:&amp;#10;    msg = 'YAVAŞ CEVAP !'&amp;#10;    msgColor = 'black'&amp;#10;&amp;#10;    &amp;#10;   #eğer reation time ikiden küçükse: 1 doğru, 0 yanlış. &amp;#10;    #burada ikiden büyük olursa yavaş cevap verdiğini göstermek için böyle yaptık.&amp;#10;    #ikiin üstü yanlış cevap " valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codefeedback" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="textfeedback" plugin="None">
+        <Param val="$msgColor" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.07" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textfeedback" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.5, -.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Kelime değildir: &quot;z&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_8" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_8" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.5, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Kelimedir: &quot;m&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="TestTrial">
+      <RoutineSettingsComponent name="TestTrial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="TestTrial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <UnknownComponent name="TestTrial_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="TestTrial_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </UnknownComponent>
+      <CodeComponent name="code_5" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="#number = &quot;&quot;&amp;#10;&amp;#10;trialCount = 0&amp;#10;breakTrials = [121,241]" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="trialCount = 0;&amp;#10;breakTrials = [121, 241];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="trialCount = (trialCount + 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="#number = test_loop.thisN&amp;#10;&amp;#10;trialCount = trialCount + 1" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_5" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="test_trial" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.07" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="test_trial" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$target" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respTest" plugin="None">
+        <Param val="'z','m'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$CorrAns" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respTest" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="text_5" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_5" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.5, -.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Kelime değildir: &quot;z&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_6" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_6" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.5, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Kelimedir: &quot;m&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Welcome_screen">
+      <RoutineSettingsComponent name="Welcome_screen" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Welcome_screen" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# event.Mouse(visible=False)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="textWelcome" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textWelcome" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$Introduction" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respwelcome" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respwelcome" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Goodbye_screen">
+      <RoutineSettingsComponent name="Goodbye_screen" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Goodbye_screen" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <UnknownComponent name="Goodbye_screen_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Goodbye_screen_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </UnknownComponent>
+      <TextComponent name="text_goodbye" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_goodbye" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Katıldığınız için teşekkür ederiz. :)&amp;#10;&amp;#10;Bitirmek için BOŞLUK tuşuna basınız. &amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respgoodbye" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respgoodbye" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Studypractice">
+      <RoutineSettingsComponent name="Studypractice" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Studypractice" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <UnknownComponent name="Studypractice_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Studypractice_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </UnknownComponent>
+      <TextComponent name="text_p" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.07" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_p" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$target_p" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respstudy" plugin="None">
+        <Param val="'z','m'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$CorrAns_p" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respstudy" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="text_3" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.5, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Kelimedir: &quot;m&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_4" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.5, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Kelime değildir: &quot;z&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="nCorr = 0&amp;#10;rtList = []&amp;#10;&amp;#10;#corr: correct answer &amp;#10;#rt: reaction time adında iki liste oluşturduk&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="nCorr = 0;&amp;#10;rtList = [];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="corr = (- 1);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="corr = -1" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="if (key_respstudy.corr) {&amp;#10;    nCorr = (nCorr + 1);&amp;#10;}&amp;#10;rtList.push(key_respstudy.rt);&amp;#10;corr = key_respstudy.corr;&amp;#10;rt = key_respstudy.rt;&amp;#10;psychoJS.experiment.addData(&quot;rt&quot;, rt);&amp;#10;psychoJS.experiment.addData(&quot;corr&quot;, corr);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="#verilen cevap için correct answer. Doğru cevap böyle yazılır ama false için belirtmen gerekir yazarsan. &amp;#10;if key_respstudy.corr:&amp;#10;    nCorr = nCorr +1&amp;#10;&amp;#10;#reaction time list içine cevapları aldık. Cevapların reaction timeı&amp;#10;rtList.append(key_respstudy.rt)&amp;#10;&amp;#10;#neyin ne olduğunu eşleştirdik&amp;#10;corr = key_respstudy.corr&amp;#10;rt = key_respstudy.rt&amp;#10;&amp;#10;#this experimente veri ekledik&amp;#10;thisExp.addData('rt',rt)&amp;#10;thisExp.addData('corr',corr)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Fixation">
+      <RoutineSettingsComponent name="Fixation" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Fixation" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <UnknownComponent name="Fixation_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Fixation_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </UnknownComponent>
+      <CodeComponent name="code_3" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# event.Mouse(visible=False)&amp;#10;&amp;#10;#deneyden mouse sildik." valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="textFix" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.06" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textFix" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.5, -.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Kelime değildir: &quot;z&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text_7" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_7" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.5, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Kelimedir: &quot;m&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="test2part">
+      <RoutineSettingsComponent name="test2part" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="test2part" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <UnknownComponent name="test2part_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="test2part_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </UnknownComponent>
+    </Routine>
+    <Routine name="test3part">
+      <RoutineSettingsComponent name="test3part" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="test3part" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <UnknownComponent name="test3part_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="test3part_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </UnknownComponent>
+    </Routine>
+    <Routine name="Pause">
+      <RoutineSettingsComponent name="Pause" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Pause" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <UnknownComponent name="Pause_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Pause_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </UnknownComponent>
+      <CodeComponent name="code_4" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if trialCount not in breakTrials:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;if ((! _pj.in_es6(trialCount, breakTrials))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_4" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_pause" plugin="None">
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_pause" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Küçük bir mola verebilirsin. &amp;#10;&amp;#10;&amp;#10;Teste devam etmek için BOŞLUK tuşuna bas. " valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_xx" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_xx" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Consent">
+      <RoutineSettingsComponent name="Consent" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Consent" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_6" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if image.contains(mouse):&amp;#10;    image.size = (0.2,0.2)&amp;#10;else:&amp;#10;    image.size = (0.15,0.15)" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if (image.contains(mouse)) {&amp;#10;    image.size = [0.2, 0.2];&amp;#10;} else {&amp;#10;    image.size = [0.15, 0.15];&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_6" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_9" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_9" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Bu deneyle ilgili herhangi bir sorunuz, öneriniz, endişeniz veya şikâyetiniz varsa lütfen bizimle iletişime geçiniz: Manuel Perea (Manuel.Perea@uv.es), Zeynep Güneş Özkan (Zeynep.Ozkan@uv.es) veya Berceste Özdemir (BercesteOzdemir@gmail.com) Onayınızı istediğiniz zaman geri çekebilirsiniz. Bu durumda tüm kişisel ve araştırma verileriniz silinecektir.&amp;#10;&amp;#10;Bu araştırmaya katılmayı gönüllü olarak kabul ediyorsanız, yandaki kutucuğa fare ile tıklayınız.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="image" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="checkbox1.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.55, -0.15)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.15)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <MouseComponent name="mouse" plugin="None">
+        <Param val="image" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="consent1">
+      <RoutineSettingsComponent name="consent1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="consent1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_10" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_10" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Gizlilik Politikası ve Genel Bilgiler Riskler &amp;#10;&amp;#10;Bu deneye katılım tamamen gönüllülük esasına bağlıdır ve herhangi özel bir risk içermez. Çalışmanın Akışı Deney sırasında size Türkçe kelimeler tek tek sunulacak ve sizden kelimeleri anlam kategorilerine göre sınıflandırmanız istenecektir. Deneyin Sonlandırılması Deneyi istediğiniz vakitte sonlandırabilirsiniz. Bu sizin için herhangi bir olumsuz sonuç teşkil etmeyecektir. Veri İşleme Bu deneyden elde edilen tüm veriler gizli tutulacak, isimsiz olarak saklanacak ve yalnızca araştırma amacıyla kullanılacaktır. Deneyin başında girdiğiniz bilgiler (yaş, cinsiyet) verileri etkilemektedir. Sizden daha fazla kişisel veri toplanmayacaktır. Saklanan veriler, erişime açılamaz.&amp;#10;&amp;#10;Devam etmek için BOŞLUK tuşuna basınız." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="start">
+      <RoutineSettingsComponent name="start" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="start" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_11" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_11" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Çalışmaya başlamadan önce ufak bir pratik yer almaktadır.&amp;#10;Kelimedir: &quot;m&quot;&amp;#10;Kelime değildir: &quot;z&quot;&amp;#10;&amp;#10;Pratik teste başlamak için BOŞLUK tuşuna basınız. " valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="anket">
+      <RoutineSettingsComponent name="anket" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="anket" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <PavloviaSurveyRoutine name="Anket">
+      <Param name="disabled" updates="None" val="False" valType="bool"/>
+      <Param name="name" updates="None" val="Anket" valType="code"/>
+      <Param name="surveyId" updates="None" val="" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+    <PavloviaSurveyRoutine name="survey_2">
+      <Param name="disabled" updates="None" val="False" valType="bool"/>
+      <Param name="name" updates="None" val="survey_2" valType="code"/>
+      <Param name="surveyId" updates="None" val="#3858749f-2e36-4002-97bc-5fa38902ce5d" valType="str"/>
+      <Param name="surveyJson" updates="None" val="" valType="str"/>
+      <Param name="surveyType" updates="None" val="id" valType="code"/>
+    </PavloviaSurveyRoutine>
+  </Routines>
+  <Flow>
+    <Routine name="anket"/>
+    <LoopInitiator loopType="TrialHandler" name="intro_x">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Introduction': 'Deneye hoş geldiniz,\n\nDevam etmek için BOŞLUK tuşuna basınız.'}, {'Introduction': 'Bu çalışma Valencia Üniversitesi kapsamında yürütülmektedir. Deneydeki göreviniz, ekrana çıkacak Türkçe sözcüklerin kelime olup olmadığını belirlemenizdir. Eğer sözcük gerçek bir kelime ise &quot;m&quot; tuşuna, değil ise &quot;z&quot; tuşuna basınız.   \n\nDevam etmek için BOŞLUK tuşuna basınız.'}, {'Introduction': 'Her sözcük için en fazla iki saniyede cevap vermeniz beklenmektedir. Aksi takdirde deney bir sonraki sözcük ile devam eder. \nBu çalışmada oldukça hızlı ve doğru cevaplama yapmanız beklenmektedir.\n\nDevam etmek için BOŞLUK tuşuna basınız.'}, {'Introduction': 'Çalışmaya başlamadan önce ufak bir pratik yer almaktadır.\nKelimedir: &quot;m&quot;\nKelime değildir: &quot;z&quot;\n\nPratik teste başlamak için BOŞLUK tuşuna basınız. '}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="intro.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="intro_x" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Welcome_screen"/>
+    <LoopTerminator name="intro_x"/>
+    <LoopInitiator loopType="TrialHandler" name="practice_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'item_nr_p': 1, 'target_p': 'hazır', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 2, 'target_p': 'veri', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 3, 'target_p': 'yardım', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 4, 'target_p': 'sevgi', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 5, 'target_p': 'soğuk', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 6, 'target_p': 'gizli', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 7, 'target_p': 'sebep', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 8, 'target_p': 'oran', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 9, 'target_p': 'bilim', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 10, 'target_p': 'zarar', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 11, 'target_p': 'nefret', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 12, 'target_p': 'teslim', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'word', 'CorrAns_p': 'm'}, {'item_nr_p': 13, 'target_p': 'tahip', 'isHarmonic_p': 'notharmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 14, 'target_p': 'orat', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 15, 'target_p': 'mahne', 'isHarmonic_p': 'notharmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 16, 'target_p': 'geki', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 17, 'target_p': 'ihlot', 'isHarmonic_p': 'notharmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 18, 'target_p': 'pilar', 'isHarmonic_p': 'notharmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 19, 'target_p': 'pimer', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 20, 'target_p': 'mımal', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 21, 'target_p': 'yoğuk', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 22, 'target_p': 'güçli', 'isHarmonic_p': 'harmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 23, 'target_p': 'gizım', 'isHarmonic_p': 'notharmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}, {'item_nr_p': 24, 'target_p': 'zarim', 'isHarmonic_p': 'notharmonic', 'target_cond_p': 'nw', 'CorrAns_p': 'z'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="practice.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="practice_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Fixation"/>
+    <Routine name="Studypractice"/>
+    <Routine name="Feedback"/>
+    <LoopTerminator name="practice_loop"/>
+    <Routine name="Instraction"/>
+    <LoopInitiator loopType="TrialHandler" name="test_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'item_nr': 1, 'target': 'sanat', 'BlogFreq_A1': 3121, 'BlogFreqpm_A1': 141.8059, 'BlogCD_A1': 2485, 'BlogCDPc_A1': 0.2717, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.4, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 2, 'target': 'erkek', 'BlogFreq_A1': 6188, 'BlogFreqpm_A1': 281.1582, 'BlogCD_A1': 5195, 'BlogCDPc_A1': 0.5679, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.65, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 3, 'target': 'radyo', 'BlogFreq_A1': 763, 'BlogFreqpm_A1': 34.6677, 'BlogCD_A1': 636, 'BlogCDPc_A1': 0.0695, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 4, 'target': 'minik', 'BlogFreq_A1': 2916, 'BlogFreqpm_A1': 132.4915, 'BlogCD_A1': 2594, 'BlogCDPc_A1': 0.2836, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 5, 'target': 'metre', 'BlogFreq_A1': 1156, 'BlogFreqpm_A1': 52.5241, 'BlogCD_A1': 1015, 'BlogCDPc_A1': 0.111, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 6, 'target': 'bebek', 'BlogFreq_A1': 3301, 'BlogFreqpm_A1': 149.9843, 'BlogCD_A1': 2794, 'BlogCDPc_A1': 0.3054, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 7, 'target': 'hayal', 'BlogFreq_A1': 4498, 'BlogFreqpm_A1': 204.3713, 'BlogCD_A1': 4079, 'BlogCDPc_A1': 0.4459, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.45, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 8, 'target': 'hizmet', 'BlogFreq_A1': 3023, 'BlogFreqpm_A1': 137.3531, 'BlogCD_A1': 2689, 'BlogCDPc_A1': 0.294, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 9, 'target': 'güven', 'BlogFreq_A1': 1433, 'BlogFreqpm_A1': 65.1098, 'BlogCD_A1': 1300, 'BlogCDPc_A1': 0.1421, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.35, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 10, 'target': 'karar', 'BlogFreq_A1': 8108, 'BlogFreqpm_A1': 368.3954, 'BlogCD_A1': 7436, 'BlogCDPc_A1': 0.8129, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 11, 'target': 'bardak', 'BlogFreq_A1': 1728, 'BlogFreqpm_A1': 78.5135, 'BlogCD_A1': 1569, 'BlogCDPc_A1': 0.1715, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 12, 'target': 'umut', 'BlogFreq_A1': 1988, 'BlogFreqpm_A1': 90.3268, 'BlogCD_A1': 1818, 'BlogCDPc_A1': 0.1987, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 13, 'target': 'konu', 'BlogFreq_A1': 5400, 'BlogFreqpm_A1': 245.3546, 'BlogCD_A1': 5110, 'BlogCDPc_A1': 0.5586, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 14, 'target': 'nokta', 'BlogFreq_A1': 2085, 'BlogFreqpm_A1': 94.7341, 'BlogCD_A1': 1939, 'BlogCDPc_A1': 0.212, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 15, 'target': 'yaşam', 'BlogFreq_A1': 4348, 'BlogFreqpm_A1': 197.5559, 'BlogCD_A1': 3918, 'BlogCDPc_A1': 0.4283, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.4, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 16, 'target': 'hayat', 'BlogFreq_A1': 7922, 'BlogFreqpm_A1': 359.9443, 'BlogCD_A1': 7314, 'BlogCDPc_A1': 0.7996, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 17, 'target': 'yavaş', 'BlogFreq_A1': 5087, 'BlogFreqpm_A1': 231.1331, 'BlogCD_A1': 2886, 'BlogCDPc_A1': 0.3155, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 18, 'target': 'yakın', 'BlogFreq_A1': 7990, 'BlogFreqpm_A1': 363.0339, 'BlogCD_A1': 7595, 'BlogCDPc_A1': 0.8303, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 19, 'target': 'normal', 'BlogFreq_A1': 4154, 'BlogFreqpm_A1': 188.7413, 'BlogCD_A1': 3788, 'BlogCDPc_A1': 0.4141, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 20, 'target': 'ödül', 'BlogFreq_A1': 1063, 'BlogFreqpm_A1': 48.2985, 'BlogCD_A1': 926, 'BlogCDPc_A1': 0.1012, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 21, 'target': 'nefes', 'BlogFreq_A1': 2871, 'BlogFreqpm_A1': 130.4469, 'BlogCD_A1': 2553, 'BlogCDPc_A1': 0.2791, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 22, 'target': 'duygu', 'BlogFreq_A1': 1877, 'BlogFreqpm_A1': 85.2834, 'BlogCD_A1': 1760, 'BlogCDPc_A1': 0.1924, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 23, 'target': 'anlam', 'BlogFreq_A1': 1730, 'BlogFreqpm_A1': 78.6043, 'BlogCD_A1': 1617, 'BlogCDPc_A1': 0.1768, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.25, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 24, 'target': 'kurum', 'BlogFreq_A1': 986, 'BlogFreqpm_A1': 44.7999, 'BlogCD_A1': 882, 'BlogCDPc_A1': 0.0964, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 25, 'target': 'yorgun', 'BlogFreq_A1': 1153, 'BlogFreqpm_A1': 52.3877, 'BlogCD_A1': 1108, 'BlogCDPc_A1': 0.1211, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 26, 'target': 'rapor', 'BlogFreq_A1': 703, 'BlogFreqpm_A1': 31.9415, 'BlogCD_A1': 617, 'BlogCDPc_A1': 0.0675, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 27, 'target': 'sebze', 'BlogFreq_A1': 1094, 'BlogFreqpm_A1': 49.707, 'BlogCD_A1': 961, 'BlogCDPc_A1': 0.1051, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 28, 'target': 'bölge', 'BlogFreq_A1': 1283, 'BlogFreqpm_A1': 58.2944, 'BlogCD_A1': 1123, 'BlogCDPc_A1': 0.1228, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.65, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 29, 'target': 'parlak', 'BlogFreq_A1': 1142, 'BlogFreqpm_A1': 51.888, 'BlogCD_A1': 1088, 'BlogCDPc_A1': 0.1189, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 30, 'target': 'huzur', 'BlogFreq_A1': 1911, 'BlogFreqpm_A1': 86.8283, 'BlogCD_A1': 1799, 'BlogCDPc_A1': 0.1967, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 31, 'target': 'çevre', 'BlogFreq_A1': 1662, 'BlogFreqpm_A1': 75.5147, 'BlogCD_A1': 1409, 'BlogCDPc_A1': 0.154, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 32, 'target': 'fazla', 'BlogFreq_A1': 18293, 'BlogFreqpm_A1': 831.1614, 'BlogCD_A1': 16694, 'BlogCDPc_A1': 1.825, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 33, 'target': 'temel', 'BlogFreq_A1': 4231, 'BlogFreqpm_A1': 192.2399, 'BlogCD_A1': 3851, 'BlogCDPc_A1': 0.421, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 34, 'target': 'moda', 'BlogFreq_A1': 1381, 'BlogFreqpm_A1': 62.7472, 'BlogCD_A1': 1231, 'BlogCDPc_A1': 0.1346, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 35, 'target': 'hoca', 'BlogFreq_A1': 1893, 'BlogFreqpm_A1': 86.0104, 'BlogCD_A1': 1526, 'BlogCDPc_A1': 0.1668, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.45, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 36, 'target': 'hava', 'BlogFreq_A1': 4975, 'BlogFreqpm_A1': 226.0443, 'BlogCD_A1': 4398, 'BlogCDPc_A1': 0.4808, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 37, 'target': 'meslek', 'BlogFreq_A1': 1082, 'BlogFreqpm_A1': 49.1618, 'BlogCD_A1': 976, 'BlogCDPc_A1': 0.1067, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 38, 'target': 'hayvan', 'BlogFreq_A1': 2363, 'BlogFreqpm_A1': 107.3653, 'BlogCD_A1': 1894, 'BlogCDPc_A1': 0.2071, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 39, 'target': 'dönem', 'BlogFreq_A1': 2820, 'BlogFreqpm_A1': 128.1296, 'BlogCD_A1': 2437, 'BlogCDPc_A1': 0.2664, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.4, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 40, 'target': 'yaygın', 'BlogFreq_A1': 1061, 'BlogFreqpm_A1': 48.2076, 'BlogCD_A1': 1019, 'BlogCDPc_A1': 0.1114, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.35, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 41, 'target': 'tepki', 'BlogFreq_A1': 1695, 'BlogFreqpm_A1': 77.0141, 'BlogCD_A1': 1578, 'BlogCDPc_A1': 0.1725, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 42, 'target': 'zengin', 'BlogFreq_A1': 2193, 'BlogFreqpm_A1': 99.6412, 'BlogCD_A1': 2015, 'BlogCDPc_A1': 0.2203, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.65, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 43, 'target': 'ürün', 'BlogFreq_A1': 2268, 'BlogFreqpm_A1': 103.0489, 'BlogCD_A1': 1954, 'BlogCDPc_A1': 0.2136, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.1, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 44, 'target': 'geniş', 'BlogFreq_A1': 3380, 'BlogFreqpm_A1': 153.5738, 'BlogCD_A1': 3185, 'BlogCDPc_A1': 0.3482, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.35, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 45, 'target': 'kayıt', 'BlogFreq_A1': 1234, 'BlogFreqpm_A1': 56.0681, 'BlogCD_A1': 1058, 'BlogCDPc_A1': 0.1157, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.35, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 46, 'target': 'bilgi', 'BlogFreq_A1': 5981, 'BlogFreqpm_A1': 271.7529, 'BlogCD_A1': 5353, 'BlogCDPc_A1': 0.5852, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 47, 'target': 'takım', 'BlogFreq_A1': 4370, 'BlogFreqpm_A1': 198.5555, 'BlogCD_A1': 3726, 'BlogCDPc_A1': 0.4073, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 48, 'target': 'kaza', 'BlogFreq_A1': 740, 'BlogFreqpm_A1': 33.6227, 'BlogCD_A1': 679, 'BlogCDPc_A1': 0.0742, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 49, 'target': 'teşvik', 'BlogFreq_A1': 932, 'BlogFreqpm_A1': 42.3464, 'BlogCD_A1': 867, 'BlogCDPc_A1': 0.0948, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 50, 'target': 'şeker', 'BlogFreq_A1': 4708, 'BlogFreqpm_A1': 213.9128, 'BlogCD_A1': 4170, 'BlogCDPc_A1': 0.4559, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 51, 'target': 'kanun', 'BlogFreq_A1': 1198, 'BlogFreqpm_A1': 54.4324, 'BlogCD_A1': 1010, 'BlogCDPc_A1': 0.1104, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 52, 'target': 'ilginç', 'BlogFreq_A1': 2803, 'BlogFreqpm_A1': 127.3572, 'BlogCD_A1': 2690, 'BlogCDPc_A1': 0.2941, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 53, 'target': 'resim', 'BlogFreq_A1': 2506, 'BlogFreqpm_A1': 113.8627, 'BlogCD_A1': 2188, 'BlogCDPc_A1': 0.2392, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.4, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 54, 'target': 'gelir', 'BlogFreq_A1': 7578, 'BlogFreqpm_A1': 344.3143, 'BlogCD_A1': 7014, 'BlogCDPc_A1': 0.7668, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.4, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 55, 'target': 'yedek', 'BlogFreq_A1': 825, 'BlogFreqpm_A1': 37.4847, 'BlogCD_A1': 732, 'BlogCDPc_A1': 0.08, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.65, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 56, 'target': 'akıl', 'BlogFreq_A1': 2208, 'BlogFreqpm_A1': 100.3228, 'BlogCD_A1': 2004, 'BlogCDPc_A1': 0.2191, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 57, 'target': 'sağlam', 'BlogFreq_A1': 1818, 'BlogFreqpm_A1': 82.6027, 'BlogCD_A1': 1720, 'BlogCDPc_A1': 0.188, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 58, 'target': 'bölüm', 'BlogFreq_A1': 1910, 'BlogFreqpm_A1': 86.7828, 'BlogCD_A1': 1605, 'BlogCDPc_A1': 0.1755, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.45, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 59, 'target': 'ayak', 'BlogFreq_A1': 2143, 'BlogFreqpm_A1': 97.3694, 'BlogCD_A1': 1931, 'BlogCDPc_A1': 0.2111, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 60, 'target': 'köpek', 'BlogFreq_A1': 1044, 'BlogFreqpm_A1': 47.4352, 'BlogCD_A1': 901, 'BlogCDPc_A1': 0.0985, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 61, 'target': 'doğu', 'BlogFreq_A1': 2105, 'BlogFreqpm_A1': 95.6429, 'BlogCD_A1': 1823, 'BlogCDPc_A1': 0.1993, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.05, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 62, 'target': 'yıldız', 'BlogFreq_A1': 1775, 'BlogFreqpm_A1': 80.649, 'BlogCD_A1': 1532, 'BlogCDPc_A1': 0.1675, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 63, 'target': 'cümle', 'BlogFreq_A1': 1911, 'BlogFreqpm_A1': 86.8283, 'BlogCD_A1': 1765, 'BlogCDPc_A1': 0.193, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 64, 'target': 'sultan', 'BlogFreq_A1': 1756, 'BlogFreqpm_A1': 79.7857, 'BlogCD_A1': 1368, 'BlogCDPc_A1': 0.1496, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 65, 'target': 'lise', 'BlogFreq_A1': 888, 'BlogFreqpm_A1': 40.3472, 'BlogCD_A1': 816, 'BlogCDPc_A1': 0.0892, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 66, 'target': 'fikir', 'BlogFreq_A1': 2552, 'BlogFreqpm_A1': 115.9528, 'BlogCD_A1': 2413, 'BlogCDPc_A1': 0.2638, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 67, 'target': 'sanık', 'BlogFreq_A1': 768, 'BlogFreqpm_A1': 34.8949, 'BlogCD_A1': 699, 'BlogCDPc_A1': 0.0764, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 68, 'target': 'bayram', 'BlogFreq_A1': 1948, 'BlogFreqpm_A1': 88.5094, 'BlogCD_A1': 1648, 'BlogCDPc_A1': 0.1802, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 69, 'target': 'ücret', 'BlogFreq_A1': 734, 'BlogFreqpm_A1': 33.35, 'BlogCD_A1': 634, 'BlogCDPc_A1': 0.0693, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 70, 'target': 'forma', 'BlogFreq_A1': 719, 'BlogFreqpm_A1': 32.6685, 'BlogCD_A1': 597, 'BlogCDPc_A1': 0.0653, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 71, 'target': 'yarın', 'BlogFreq_A1': 3440, 'BlogFreqpm_A1': 156.3, 'BlogCD_A1': 3222, 'BlogCDPc_A1': 0.3522, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 72, 'target': 'örnek', 'BlogFreq_A1': 3463, 'BlogFreqpm_A1': 157.345, 'BlogCD_A1': 3266, 'BlogCDPc_A1': 0.357, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 73, 'target': 'çorba', 'BlogFreq_A1': 1674, 'BlogFreqpm_A1': 76.0599, 'BlogCD_A1': 1513, 'BlogCDPc_A1': 0.1654, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 74, 'target': 'millet', 'BlogFreq_A1': 1658, 'BlogFreqpm_A1': 75.3329, 'BlogCD_A1': 1508, 'BlogCDPc_A1': 0.1649, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 75, 'target': 'başarı', 'BlogFreq_A1': 1398, 'BlogFreqpm_A1': 63.5196, 'BlogCD_A1': 1300, 'BlogCDPc_A1': 0.1421, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.2, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 76, 'target': 'roman', 'BlogFreq_A1': 1499, 'BlogFreqpm_A1': 68.1086, 'BlogCD_A1': 1281, 'BlogCDPc_A1': 0.14, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 77, 'target': 'ilişki', 'BlogFreq_A1': 1675, 'BlogFreqpm_A1': 76.1054, 'BlogCD_A1': 1524, 'BlogCDPc_A1': 0.1666, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 78, 'target': 'ufak', 'BlogFreq_A1': 3252, 'BlogFreqpm_A1': 147.758, 'BlogCD_A1': 2980, 'BlogCDPc_A1': 0.3258, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 79, 'target': 'ulusal', 'BlogFreq_A1': 1551, 'BlogFreqpm_A1': 70.4713, 'BlogCD_A1': 1355, 'BlogCDPc_A1': 0.1481, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 80, 'target': 'durum', 'BlogFreq_A1': 6783, 'BlogFreqpm_A1': 308.1926, 'BlogCD_A1': 6431, 'BlogCDPc_A1': 0.703, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 81, 'target': 'merkez', 'BlogFreq_A1': 1445, 'BlogFreqpm_A1': 65.6551, 'BlogCD_A1': 1255, 'BlogCDPc_A1': 0.1372, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 82, 'target': 'üretim', 'BlogFreq_A1': 1593, 'BlogFreqpm_A1': 72.3796, 'BlogCD_A1': 1283, 'BlogCDPc_A1': 0.1403, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 83, 'target': 'aday', 'BlogFreq_A1': 1028, 'BlogFreqpm_A1': 46.7082, 'BlogCD_A1': 873, 'BlogCDPc_A1': 0.0954, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.45, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 84, 'target': 'küçük', 'BlogFreq_A1': 14048, 'BlogFreqpm_A1': 638.2854, 'BlogCD_A1': 12467, 'BlogCDPc_A1': 1.3629, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 85, 'target': 'ülke', 'BlogFreq_A1': 3121, 'BlogFreqpm_A1': 141.8059, 'BlogCD_A1': 2801, 'BlogCDPc_A1': 0.3062, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.65, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 86, 'target': 'geçmiş', 'BlogFreq_A1': 4195, 'BlogFreqpm_A1': 190.6042, 'BlogCD_A1': 4039, 'BlogCDPc_A1': 0.4415, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 87, 'target': 'gerçek', 'BlogFreq_A1': 8983, 'BlogFreqpm_A1': 408.1519, 'BlogCD_A1': 8058, 'BlogCDPc_A1': 0.8809, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 88, 'target': 'mümkün', 'BlogFreq_A1': 6604, 'BlogFreqpm_A1': 300.0596, 'BlogCD_A1': 6264, 'BlogCDPc_A1': 0.6848, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 89, 'target': 'yalnız', 'BlogFreq_A1': 5891, 'BlogFreqpm_A1': 267.6637, 'BlogCD_A1': 5440, 'BlogCDPc_A1': 0.5947, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 90, 'target': 'etki', 'BlogFreq_A1': 1234, 'BlogFreqpm_A1': 56.0681, 'BlogCD_A1': 1169, 'BlogCDPc_A1': 0.1278, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.4, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 91, 'target': 'güzel', 'BlogFreq_A1': 42841, 'BlogFreqpm_A1': 1946.5251, 'BlogCD_A1': 37209, 'BlogCDPc_A1': 4.0677, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 92, 'target': 'zaman', 'BlogFreq_A1': 40307, 'BlogFreqpm_A1': 1831.3902, 'BlogCD_A1': 33589, 'BlogCDPc_A1': 3.672, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 93, 'target': 'büyük', 'BlogFreq_A1': 32406, 'BlogFreqpm_A1': 1472.4001, 'BlogCD_A1': 28224, 'BlogCDPc_A1': 3.0855, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 94, 'target': 'başka', 'BlogFreq_A1': 23223, 'BlogFreqpm_A1': 1055.161, 'BlogCD_A1': 20976, 'BlogCDPc_A1': 2.2931, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 95, 'target': 'bütün', 'BlogFreq_A1': 18630, 'BlogFreqpm_A1': 846.4733, 'BlogCD_A1': 16711, 'BlogCDPc_A1': 1.8269, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 96, 'target': 'koyun', 'BlogFreq_A1': 1431, 'BlogFreqpm_A1': 65.019, 'BlogCD_A1': 1292, 'BlogCDPc_A1': 0.1412, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 97, 'target': 'mutlu', 'BlogFreq_A1': 11447, 'BlogFreqpm_A1': 520.1063, 'BlogCD_A1': 10279, 'BlogCDPc_A1': 1.1237, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 98, 'target': 'kadın', 'BlogFreq_A1': 10751, 'BlogFreqpm_A1': 488.4828, 'BlogCD_A1': 8665, 'BlogCDPc_A1': 0.9473, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 99, 'target': 'yerel', 'BlogFreq_A1': 1399, 'BlogFreqpm_A1': 63.565, 'BlogCD_A1': 1187, 'BlogCDPc_A1': 0.1298, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 100, 'target': 'çocuk', 'BlogFreq_A1': 10612, 'BlogFreqpm_A1': 482.1672, 'BlogCD_A1': 8979, 'BlogCDPc_A1': 0.9816, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 101, 'target': 'zayıf', 'BlogFreq_A1': 1359, 'BlogFreqpm_A1': 61.7476, 'BlogCD_A1': 1285, 'BlogCDPc_A1': 0.1405, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 102, 'target': 'kabul', 'BlogFreq_A1': 10003, 'BlogFreqpm_A1': 454.4967, 'BlogCD_A1': 9014, 'BlogCDPc_A1': 0.9854, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 103, 'target': 'kaşık', 'BlogFreq_A1': 1355, 'BlogFreqpm_A1': 61.5658, 'BlogCD_A1': 1177, 'BlogCDPc_A1': 0.1287, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 104, 'target': 'yemek', 'BlogFreq_A1': 9626, 'BlogFreqpm_A1': 437.3673, 'BlogCD_A1': 8311, 'BlogCDPc_A1': 0.9086, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 105, 'target': 'çizgi', 'BlogFreq_A1': 1340, 'BlogFreqpm_A1': 60.8843, 'BlogCD_A1': 1074, 'BlogCDPc_A1': 0.1174, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 106, 'target': 'hafta', 'BlogFreq_A1': 9257, 'BlogFreqpm_A1': 420.6014, 'BlogCD_A1': 8254, 'BlogCDPc_A1': 0.9023, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 107, 'target': 'sağlık', 'BlogFreq_A1': 8866, 'BlogFreqpm_A1': 402.8359, 'BlogCD_A1': 8289, 'BlogCDPc_A1': 0.9062, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 108, 'target': 'sivil', 'BlogFreq_A1': 1334, 'BlogFreqpm_A1': 60.6117, 'BlogCD_A1': 1151, 'BlogCDPc_A1': 0.1258, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 109, 'target': 'sabah', 'BlogFreq_A1': 8179, 'BlogFreqpm_A1': 371.6213, 'BlogCD_A1': 7277, 'BlogCDPc_A1': 0.7955, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 110, 'target': 'dalga', 'BlogFreq_A1': 1307, 'BlogFreqpm_A1': 59.3849, 'BlogCD_A1': 1117, 'BlogCDPc_A1': 0.1221, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 111, 'target': 'beden', 'BlogFreq_A1': 1333, 'BlogFreqpm_A1': 60.5662, 'BlogCD_A1': 1119, 'BlogCDPc_A1': 0.1223, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 112, 'target': 'soğan', 'BlogFreq_A1': 1315, 'BlogFreqpm_A1': 59.7484, 'BlogCD_A1': 1202, 'BlogCDPc_A1': 0.1314, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 113, 'target': 'genel', 'BlogFreq_A1': 7752, 'BlogFreqpm_A1': 352.2201, 'BlogCD_A1': 6893, 'BlogCDPc_A1': 0.7535, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 114, 'target': 'akşam', 'BlogFreq_A1': 7480, 'BlogFreqpm_A1': 339.8615, 'BlogCD_A1': 6833, 'BlogCDPc_A1': 0.747, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 115, 'target': 'türlü', 'BlogFreq_A1': 7010, 'BlogFreqpm_A1': 318.5066, 'BlogCD_A1': 6559, 'BlogCDPc_A1': 0.717, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 116, 'target': 'uygun', 'BlogFreq_A1': 6757, 'BlogFreqpm_A1': 307.0113, 'BlogCD_A1': 6297, 'BlogCDPc_A1': 0.6884, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 117, 'target': 'tatlı', 'BlogFreq_A1': 5515, 'BlogFreqpm_A1': 250.5797, 'BlogCD_A1': 4949, 'BlogCDPc_A1': 0.541, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 118, 'target': 'yavaş', 'BlogFreq_A1': 5087, 'BlogFreqpm_A1': 231.1331, 'BlogCD_A1': 2886, 'BlogCDPc_A1': 0.3155, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 119, 'target': 'deniz', 'BlogFreq_A1': 5006, 'BlogFreqpm_A1': 227.4528, 'BlogCD_A1': 4256, 'BlogCDPc_A1': 0.4653, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 120, 'target': 'rahat', 'BlogFreq_A1': 4833, 'BlogFreqpm_A1': 219.5924, 'BlogCD_A1': 4316, 'BlogCDPc_A1': 0.4718, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 121, 'target': 'doğal', 'BlogFreq_A1': 4821, 'BlogFreqpm_A1': 219.0471, 'BlogCD_A1': 4328, 'BlogCDPc_A1': 0.4731, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 122, 'target': 'şeker', 'BlogFreq_A1': 4708, 'BlogFreqpm_A1': 213.9128, 'BlogCD_A1': 4170, 'BlogCDPc_A1': 0.4559, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 123, 'target': 'sorun', 'BlogFreq_A1': 4653, 'BlogFreqpm_A1': 211.4139, 'BlogCD_A1': 4296, 'BlogCDPc_A1': 0.4696, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 124, 'target': 'güneş', 'BlogFreq_A1': 4371, 'BlogFreqpm_A1': 198.6009, 'BlogCD_A1': 3610, 'BlogCDPc_A1': 0.3946, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 125, 'target': 'yarım', 'BlogFreq_A1': 4177, 'BlogFreqpm_A1': 189.7863, 'BlogCD_A1': 3852, 'BlogCDPc_A1': 0.4211, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 126, 'target': 'hızlı', 'BlogFreq_A1': 4167, 'BlogFreqpm_A1': 189.332, 'BlogCD_A1': 3688, 'BlogCDPc_A1': 0.4032, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 127, 'target': 'ciddi', 'BlogFreq_A1': 4147, 'BlogFreqpm_A1': 188.4232, 'BlogCD_A1': 3686, 'BlogCDPc_A1': 0.403, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 128, 'target': 'müzik', 'BlogFreq_A1': 3999, 'BlogFreqpm_A1': 181.6987, 'BlogCD_A1': 3340, 'BlogCDPc_A1': 0.3651, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 129, 'target': 'güçlü', 'BlogFreq_A1': 3924, 'BlogFreqpm_A1': 178.291, 'BlogCD_A1': 3614, 'BlogCDPc_A1': 0.3951, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 130, 'target': 'yorum', 'BlogFreq_A1': 3801, 'BlogFreqpm_A1': 172.7024, 'BlogCD_A1': 3473, 'BlogCDPc_A1': 0.3797, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 131, 'target': 'sonuç', 'BlogFreq_A1': 3768, 'BlogFreqpm_A1': 171.203, 'BlogCD_A1': 3626, 'BlogCDPc_A1': 0.3964, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 132, 'target': 'derin', 'BlogFreq_A1': 3689, 'BlogFreqpm_A1': 167.6135, 'BlogCD_A1': 3328, 'BlogCDPc_A1': 0.3638, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 133, 'target': 'soğuk', 'BlogFreq_A1': 3676, 'BlogFreqpm_A1': 167.0229, 'BlogCD_A1': 3359, 'BlogCDPc_A1': 0.3672, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 134, 'target': 'ortak', 'BlogFreq_A1': 3666, 'BlogFreqpm_A1': 166.5685, 'BlogCD_A1': 3331, 'BlogCDPc_A1': 0.3641, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 135, 'target': 'hanım', 'BlogFreq_A1': 3564, 'BlogFreqpm_A1': 161.934, 'BlogCD_A1': 3151, 'BlogCDPc_A1': 0.3445, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 136, 'target': 'değer', 'BlogFreq_A1': 3333, 'BlogFreqpm_A1': 151.4383, 'BlogCD_A1': 3084, 'BlogCDPc_A1': 0.3371, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 137, 'target': 'süper', 'BlogFreq_A1': 3256, 'BlogFreqpm_A1': 147.9397, 'BlogCD_A1': 2989, 'BlogCDPc_A1': 0.3268, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 138, 'target': 'yoğun', 'BlogFreq_A1': 3189, 'BlogFreqpm_A1': 144.8955, 'BlogCD_A1': 3026, 'BlogCDPc_A1': 0.3308, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 139, 'target': 'yazar', 'BlogFreq_A1': 3175, 'BlogFreqpm_A1': 144.2594, 'BlogCD_A1': 2877, 'BlogCDPc_A1': 0.3145, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 140, 'target': 'okul', 'BlogFreq_A1': 2685, 'BlogFreqpm_A1': 121.9958, 'BlogCD_A1': 2381, 'BlogCDPc_A1': 0.2603, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 141, 'target': 'ünlü', 'BlogFreq_A1': 2684, 'BlogFreqpm_A1': 121.9503, 'BlogCD_A1': 2457, 'BlogCDPc_A1': 0.2686, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 142, 'target': 'kuru', 'BlogFreq_A1': 2669, 'BlogFreqpm_A1': 121.2688, 'BlogCD_A1': 2372, 'BlogCDPc_A1': 0.2593, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 143, 'target': 'aşık', 'BlogFreq_A1': 2464, 'BlogFreqpm_A1': 111.9544, 'BlogCD_A1': 2129, 'BlogCDPc_A1': 0.2327, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 144, 'target': 'isim', 'BlogFreq_A1': 2366, 'BlogFreqpm_A1': 107.5017, 'BlogCD_A1': 2163, 'BlogCDPc_A1': 0.2365, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 145, 'target': 'şiir', 'BlogFreq_A1': 2213, 'BlogFreqpm_A1': 100.5499, 'BlogCD_A1': 1690, 'BlogCDPc_A1': 0.1848, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 146, 'target': 'ilgi', 'BlogFreq_A1': 2144, 'BlogFreqpm_A1': 97.4149, 'BlogCD_A1': 2041, 'BlogCDPc_A1': 0.2231, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 147, 'target': 'sarı', 'BlogFreq_A1': 2072, 'BlogFreqpm_A1': 94.1435, 'BlogCD_A1': 1838, 'BlogCDPc_A1': 0.2009, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 148, 'target': 'dizi', 'BlogFreq_A1': 1995, 'BlogFreqpm_A1': 90.6449, 'BlogCD_A1': 1689, 'BlogCDPc_A1': 0.1846, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 149, 'target': 'ışık', 'BlogFreq_A1': 1814, 'BlogFreqpm_A1': 82.421, 'BlogCD_A1': 1635, 'BlogCDPc_A1': 0.1787, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 150, 'target': 'ince', 'BlogFreq_A1': 4045, 'BlogFreqpm_A1': 183.7888, 'BlogCD_A1': 3429, 'BlogCDPc_A1': 0.3749, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 151, 'target': 'ağır', 'BlogFreq_A1': 4441, 'BlogFreqpm_A1': 201.7814, 'BlogCD_A1': 3961, 'BlogCDPc_A1': 0.433, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 152, 'target': 'uzak', 'BlogFreq_A1': 4809, 'BlogFreqpm_A1': 218.5019, 'BlogCD_A1': 4564, 'BlogCDPc_A1': 0.4989, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 153, 'target': 'sene', 'BlogFreq_A1': 6752, 'BlogFreqpm_A1': 306.7841, 'BlogCD_A1': 5843, 'BlogCDPc_A1': 0.6388, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 154, 'target': 'para', 'BlogFreq_A1': 7124, 'BlogFreqpm_A1': 323.6863, 'BlogCD_A1': 5953, 'BlogCDPc_A1': 0.6508, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 155, 'target': 'oyun', 'BlogFreq_A1': 4926, 'BlogFreqpm_A1': 223.8179, 'BlogCD_A1': 3995, 'BlogCDPc_A1': 0.4367, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 156, 'target': 'devlet', 'BlogFreq_A1': 5766, 'BlogFreqpm_A1': 261.9842, 'BlogCD_A1': 4854, 'BlogCDPc_A1': 0.5306, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 157, 'target': 'sosyal', 'BlogFreq_A1': 5290, 'BlogFreqpm_A1': 240.3566, 'BlogCD_A1': 4372, 'BlogCDPc_A1': 0.4779, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 158, 'target': 'eğitim', 'BlogFreq_A1': 4784, 'BlogFreqpm_A1': 217.366, 'BlogCD_A1': 3846, 'BlogCDPc_A1': 0.4204, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 159, 'target': 'tercih', 'BlogFreq_A1': 4577, 'BlogFreqpm_A1': 207.9607, 'BlogCD_A1': 4282, 'BlogCDPc_A1': 0.4681, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 160, 'target': 'derece', 'BlogFreq_A1': 4766, 'BlogFreqpm_A1': 216.5481, 'BlogCD_A1': 4462, 'BlogCDPc_A1': 0.4878, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 161, 'target': 'günlük', 'BlogFreq_A1': 3421, 'BlogFreqpm_A1': 155.4367, 'BlogCD_A1': 3201, 'BlogCDPc_A1': 0.3499, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 162, 'target': 'servis', 'BlogFreq_A1': 3344, 'BlogFreqpm_A1': 151.9381, 'BlogCD_A1': 2968, 'BlogCDPc_A1': 0.3245, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 163, 'target': 'destek', 'BlogFreq_A1': 3328, 'BlogFreqpm_A1': 151.2111, 'BlogCD_A1': 3065, 'BlogCDPc_A1': 0.3351, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 164, 'target': 'teknik', 'BlogFreq_A1': 3297, 'BlogFreqpm_A1': 149.8026, 'BlogCD_A1': 2798, 'BlogCDPc_A1': 0.3059, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 165, 'target': 'toprak', 'BlogFreq_A1': 1989, 'BlogFreqpm_A1': 90.3723, 'BlogCD_A1': 1762, 'BlogCDPc_A1': 0.1926, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 166, 'target': 'fırsat', 'BlogFreq_A1': 1952, 'BlogFreqpm_A1': 88.6911, 'BlogCD_A1': 1863, 'BlogCDPc_A1': 0.2037, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 167, 'target': 'tespit', 'BlogFreq_A1': 1929, 'BlogFreqpm_A1': 87.6461, 'BlogCD_A1': 1745, 'BlogCDPc_A1': 0.1908, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 168, 'target': 'yoğurt', 'BlogFreq_A1': 1484, 'BlogFreqpm_A1': 67.4271, 'BlogCD_A1': 1359, 'BlogCDPc_A1': 0.1486, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 169, 'target': 'peynir', 'BlogFreq_A1': 1421, 'BlogFreqpm_A1': 64.5646, 'BlogCD_A1': 1248, 'BlogCDPc_A1': 0.1364, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 170, 'target': 'düzgün', 'BlogFreq_A1': 1384, 'BlogFreqpm_A1': 62.8835, 'BlogCD_A1': 1310, 'BlogCDPc_A1': 0.1432, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 171, 'target': 'parmak', 'BlogFreq_A1': 1268, 'BlogFreqpm_A1': 57.6129, 'BlogCD_A1': 1165, 'BlogCDPc_A1': 0.1274, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 172, 'target': 'şirket', 'BlogFreq_A1': 1227, 'BlogFreqpm_A1': 55.75, 'BlogCD_A1': 1022, 'BlogCDPc_A1': 0.1117, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 173, 'target': 'halka', 'BlogFreq_A1': 1196, 'BlogFreqpm_A1': 54.3415, 'BlogCD_A1': 1014, 'BlogCDPc_A1': 0.1109, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 174, 'target': 'koruma', 'BlogFreq_A1': 1187, 'BlogFreqpm_A1': 53.9326, 'BlogCD_A1': 1066, 'BlogCDPc_A1': 0.1165, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 175, 'target': 'hayran', 'BlogFreq_A1': 1171, 'BlogFreqpm_A1': 53.2056, 'BlogCD_A1': 1073, 'BlogCDPc_A1': 0.1173, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 176, 'target': 'gündüz', 'BlogFreq_A1': 1167, 'BlogFreqpm_A1': 53.0239, 'BlogCD_A1': 1088, 'BlogCDPc_A1': 0.1189, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 177, 'target': 'tebrik', 'BlogFreq_A1': 1117, 'BlogFreqpm_A1': 50.7521, 'BlogCD_A1': 1102, 'BlogCDPc_A1': 0.1205, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 178, 'target': 'mutfak', 'BlogFreq_A1': 1110, 'BlogFreqpm_A1': 50.434, 'BlogCD_A1': 1032, 'BlogCDPc_A1': 0.1128, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 179, 'target': 'aykırı', 'BlogFreq_A1': 1094, 'BlogFreqpm_A1': 49.707, 'BlogCD_A1': 1022, 'BlogCDPc_A1': 0.1117, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 180, 'target': 'mesele', 'BlogFreq_A1': 995, 'BlogFreqpm_A1': 45.2089, 'BlogCD_A1': 929, 'BlogCDPc_A1': 0.1016, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'word', 'CorrAns': 'm'}, {'item_nr': 181, 'target': 'manıt', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 182, 'target': 'erben', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 183, 'target': 'rafto', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 184, 'target': 'titik', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 185, 'target': 'medme', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 186, 'target': 'bebin', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 187, 'target': 'yadal', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 188, 'target': 'hücmet', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 189, 'target': 'hüyen', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 190, 'target': 'kanak', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.1, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 191, 'target': 'banyak', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 192, 'target': 'unot', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 193, 'target': 'kusu', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 194, 'target': 'şıkta', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 195, 'target': 'yabum', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 196, 'target': 'habaş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 197, 'target': 'gakık', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 198, 'target': 'şortal', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 199, 'target': 'ıdol', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 200, 'target': 'repes', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 201, 'target': 'duftu', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2.5, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 202, 'target': 'azlaş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 203, 'target': 'kulom', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 204, 'target': 'yırdun', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 205, 'target': 'cabor', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2.1, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 206, 'target': 'sefbe', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 207, 'target': 'bülse', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 208, 'target': 'çallak', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 209, 'target': 'guzır', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2.05, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 210, 'target': 'çirre', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 211, 'target': 'şatla', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 212, 'target': 'metel', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 213, 'target': 'toya', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.6, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 214, 'target': 'yofa', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 215, 'target': 'yapa', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 216, 'target': 'maflek', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.15, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 217, 'target': 'halban', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 218, 'target': 'dötim', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 219, 'target': 'yaltın', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 220, 'target': 'tefsi', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 221, 'target': 'lingin', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 222, 'target': 'ülük', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 223, 'target': 'çetiş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 224, 'target': 'kamut', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 225, 'target': 'binci', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 226, 'target': 'sakam', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.45, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 227, 'target': 'mara', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 228, 'target': 'temzik', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 229, 'target': 'nekir', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.65, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 230, 'target': 'ilgent', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.7, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 231, 'target': 'redem', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 232, 'target': 'çekir', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.45, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 233, 'target': 'çemek', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.5, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 234, 'target': 'alıt', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.15, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 235, 'target': 'taslam', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 236, 'target': 'mörüm', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 237, 'target': 'abar', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.1, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 238, 'target': 'küyek', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 239, 'target': 'bodu', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 240, 'target': 'yulçız', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 241, 'target': 'şünle', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 242, 'target': 'sılman', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 243, 'target': 'ziye', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 244, 'target': 'şiker', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 245, 'target': 'tazık', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 246, 'target': 'mahram', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 247, 'target': 'ülmet', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 248, 'target': 'fonta', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 249, 'target': 'harık', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.55, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 250, 'target': 'öldek', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 251, 'target': 'çonsa', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 252, 'target': 'bellet', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 253, 'target': 'savanı', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 254, 'target': 'notan', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 255, 'target': 'ileşçe', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.65, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 256, 'target': 'ubar', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.7, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 257, 'target': 'ulosız', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 3, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 258, 'target': 'dulom', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2.3, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 259, 'target': 'meryeş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.35, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 260, 'target': 'üreyeş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 261, 'target': 'abaf', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 262, 'target': 'kübün', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 263, 'target': 'ürze', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 264, 'target': 'geğniş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.35, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 265, 'target': 'yerfek', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 266, 'target': 'münrün', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 267, 'target': 'yannoz', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'harmonic', 'old20': 2.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 268, 'target': 'eşti', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'harmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 269, 'target': 'hayot', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 270, 'target': 'kanon', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'harmonic', 'old20': None, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 271, 'target': 'sarip', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.65, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 272, 'target': 'icazi', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 273, 'target': 'sakke', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 274, 'target': 'sisaf', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 275, 'target': 'rikal', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 276, 'target': 'makis', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 277, 'target': 'dapel', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 278, 'target': 'melbut', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 279, 'target': 'camet', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 280, 'target': 'ikaza', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 281, 'target': 'düktan', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.35, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 282, 'target': 'ikva', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 283, 'target': 'edap', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.7, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 284, 'target': 'sate', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.45, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 285, 'target': 'zebap', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 286, 'target': 'safiç', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 287, 'target': 'elsaf', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 288, 'target': 'beran', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 289, 'target': 'talif', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.5, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 290, 'target': 'minkon', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 291, 'target': 'nüda', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 292, 'target': 'kasge', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 293, 'target': 'semun', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 294, 'target': 'mosil', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 295, 'target': 'fiyan', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.65, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 296, 'target': 'takime', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 297, 'target': 'taeri', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 298, 'target': 'şasep', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 299, 'target': 'memzur', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 300, 'target': 'kurüs', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 301, 'target': 'iştal', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 302, 'target': 'meyav', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 303, 'target': 'desum', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 304, 'target': 'hahir', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.55, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 305, 'target': 'irak', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.55, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 306, 'target': 'itba', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 307, 'target': 'napare', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.15, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 308, 'target': 'masil', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.65, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 309, 'target': 'tasnin', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 310, 'target': 'yanele', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 311, 'target': 'moderp', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': None, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 312, 'target': 'mase', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 313, 'target': 'izmal', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 314, 'target': 'hahih', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 315, 'target': 'betaş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 316, 'target': 'çarki', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 317, 'target': 'karkiş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 318, 'target': 'zila', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.65, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 319, 'target': 'sapel', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 320, 'target': 'mafke', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 321, 'target': 'sivaka', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.3, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 322, 'target': 'kibas', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.9, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 323, 'target': 'galiç', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 324, 'target': 'itkea', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 2.35, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 325, 'target': 'başi', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.5, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 326, 'target': 'icanat', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.25, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 327, 'target': 'melaş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 328, 'target': 'zena', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.65, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 329, 'target': 'tadit', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 330, 'target': 'aniş', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.7, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 331, 'target': 'tevaze', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.05, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 332, 'target': 'ilcaet', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.7, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 333, 'target': 'makik', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.6, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 334, 'target': 'uleç', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 335, 'target': 'mecda', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 336, 'target': 'askif', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 337, 'target': 'zanit', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 338, 'target': 'yakim', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.75, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 339, 'target': 'kunik', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 340, 'target': 'halip', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.5, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 341, 'target': 'zizon', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 342, 'target': 'sizika', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.45, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 343, 'target': 'çaneke', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.6, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 344, 'target': 'tazen', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 345, 'target': 'adalüt', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': None, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 346, 'target': 'kiru', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.8, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 347, 'target': 'mamit', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 1.85, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 348, 'target': 'şeylam', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.4, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 349, 'target': 'minsar', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 350, 'target': 'mane', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.45, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 351, 'target': 'bügun', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': 2, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 352, 'target': 'eula', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': 1.65, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 353, 'target': 'yarema', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 1.95, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 354, 'target': 'medrar', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.05, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 355, 'target': 'dizdat', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.4, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 356, 'target': 'daneta', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': 2.4, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 357, 'target': 'ated', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 4, 'isHarmonic_A1': 'notharmonic', 'old20': None, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 358, 'target': 'harim', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 5, 'isHarmonic_A1': 'notharmonic', 'old20': None, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 359, 'target': 'ksalik', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': None, 'target_cond': 'nw', 'CorrAns': 'z'}, {'item_nr': 360, 'target': 'hisaye', 'BlogFreq_A1': None, 'BlogFreqpm_A1': None, 'BlogCD_A1': None, 'BlogCDPc_A1': None, 'WordLength_A1': 6, 'isHarmonic_A1': 'notharmonic', 'old20': None, 'target_cond': 'nw', 'CorrAns': 'z'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="task.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="test_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Fixation"/>
+    <Routine name="TestTrial"/>
+    <Routine name="Pause"/>
+    <LoopTerminator name="test_loop"/>
+    <Routine name="Goodbye_screen"/>
+  </Flow>
+</PsychoPy2experiment>

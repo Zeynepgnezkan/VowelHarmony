@@ -4,11 +4,11 @@ library(readxl)
 
 df <- data.frame(Words=c("özkan","oyun","erik","eleman"))
 
-df1 <- df %>%
-  mutate(harmonic = grepl("a|o|ı|u", Words, ignore.case = TRUE) & !grepl("e|i|ö|ü", Words, ignore.case = TRUE) | 
-         grepl("e|i|ö|ü", Words, ignore.case = TRUE) & !grepl("a|ı|o|u", Words, ignore.case = TRUE),
-         notharmonic = grepl("a|o|ı|u", Words, ignore.case = TRUE) & grepl("e|i|ö|ü", Words, ignore.case = TRUE) | 
-         grepl("e|i|ö|ü", Words, ignore.case = TRUE) & grepl("a|ı|o|u", Words, ignore.case = TRUE)) %>%
+df1 <- All_words %>%
+  mutate(harmonic = grepl("a|o|ı|u", Word, ignore.case = TRUE) & !grepl("e|i|ö|ü", Word, ignore.case = TRUE) | 
+         grepl("e|i|ö|ü", Word, ignore.case = TRUE) & !grepl("a|ı|o|u", Word, ignore.case = TRUE),
+         notharmonic = grepl("a|o|ı|u", Word, ignore.case = TRUE) & grepl("e|i|ö|ü", Word, ignore.case = TRUE) | 
+         grepl("e|i|ö|ü", Word, ignore.case = TRUE) & grepl("a|ı|o|u", Word, ignore.case = TRUE)) %>%
   mutate(harmonic = ifelse(harmonic, "harmonic",NA),
          notharmonic = ifelse(notharmonic,"notharmonic","NA")) %>%
   mutate(isHarmonic = coalesce(harmonic, notharmonic)) %>%
@@ -16,7 +16,7 @@ df1 <- df %>%
   
 
 Words <- read_excel("Tur.Freq.3.Hun.xlsx")
-
+Corpus <- Corpus %>% mutate(length = str_count(Word)) %>% filter(length < 7) %>% filter(length > 3)
 # Words_df <- Words %>%
 #   mutate(length = str_count(Words, "[A-Za-z]"),
 #          logFreq = log(Freq)) %>%
@@ -25,26 +25,31 @@ Words <- read_excel("Tur.Freq.3.Hun.xlsx")
 #   subset(logFreq >= 10) %>%
 #   subset(Type == "Noun")
 
-df1 <- Words %>% mutate(length = str_count(Word, "[A-Za-z]")) %>% filter(length < 7) %>% filter(length > 3) %>%
-  filter(str_count(Word, "[aeiıouöüAEIOUÖÜİ]") != 1) %>%
-  filter(str_count(Word, "[aeiıouöüAEIOUÖÜİ]") != 0) %>%
-  filter(str_count(Word, "[qQxXwW]") == 0) %>%
-  filter(str_count(Word, "[ ]") == 0) %>%
-  filter(str_count(Word, "-") == 0) %>%
-  mutate(harmonic = grepl("a|o|ı|u", Word, ignore.case = TRUE) & !grepl("e|i|ö|ü", Word, ignore.case = TRUE) | 
-           grepl("e|i|ö|ü", Word, ignore.case = TRUE) & !grepl("a|ı|o|u", Word, ignore.case = TRUE),
-         notharmonic = grepl("a|o|ı|u", Word, ignore.case = TRUE) & grepl("e|i|ö|ü", Word, ignore.case = TRUE) | 
-           grepl("e|i|ö|ü", Word, ignore.case = TRUE) & grepl("a|ı|o|u", Word, ignore.case = TRUE)) %>%
-  mutate(harmonic = ifelse(harmonic, "harmonic",NA),
-         notharmonic = ifelse(notharmonic,"notharmonic",NA)) %>%
-  mutate(isHarmonic = coalesce(harmonic, notharmonic)) %>%
-  select(-notharmonic,-harmonic) %>%
-  filter(!is.na(isHarmonic))
+df1 <- All_words %>% 
+  #mutate(length = str_count(Word, "[A-Za-z]")) %>% filter(length < 7) %>% filter(length > 3) %>%
+  mutate(vowel_n = str_count(Word, "[aeiıouöüAEIOUÖÜİ]")) %>%
+  mutate(no_tr = str_count(Word, "[qQxXwW]")) %>%
+  mutate(blank= str_count(Word, "[ ]")) %>%
+  mutate(no= str_count(Word, "-")) %>%
+  filter(vowel_n > 1) %>% filter(no_tr == 0) %>% filter(blank == 0) %>% filter(no == 0) %>% filter(BlogFreq != 0) %>%
+  select(-no_tr,-vowel_n,-no,-blank) 
+  
 
+
+
+  #mutate(harmonic = grepl("a|o|ı|u", Word, ignore.case = TRUE) & !grepl("e|i|ö|ü", Word, ignore.case = TRUE) | 
+  #         grepl("e|i|ö|ü", Word, ignore.case = TRUE) & !grepl("a|ı|o|u", Word, ignore.case = TRUE),
+  #       notharmonic = grepl("a|o|ı|u", Word, ignore.case = TRUE) & grepl("e|i|ö|ü", Word, ignore.case = TRUE) | 
+  #         grepl("e|i|ö|ü", Word, ignore.case = TRUE) & grepl("a|ı|o|u", Word, ignore.case = TRUE)) %>%
+  #mutate(harmonic = ifelse(harmonic, "harmonic",NA),
+  #       notharmonic = ifelse(notharmonic,"notharmonic",NA)) %>%
+  #mutate(isHarmonic = coalesce(harmonic, notharmonic)) %>%
+  #select(-notharmonic,-harmonic) %>%
+  #filter(!is.na(isHarmonic))
 
 table(df1$isHarmonic,df1$length)
 
-writexl:::write_xlsx(df1, "Words_filtered.xlsx")
+writexl:::write_xlsx(df1, "All_words.xlsx")
 colnames(Words_filtered)
 
 df <- Words_filtered %>%
