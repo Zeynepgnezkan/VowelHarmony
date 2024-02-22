@@ -1,0 +1,119 @@
+---
+title: "Lexical Decision Experiment in Turkish (Vowel Harmony) LING (NW) 2"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+
+
+# libraries
+library(lme4)
+library(ggplot2)
+library(ggpubr)
+library(jtools)
+library(tidyverse)
+library(rstan)
+library(brms)
+library(ggmcmc)
+library(effects)
+library(bayesplot)
+library(bayestestR)
+library(see)
+library(lmerTest)
+library(emmeans)
+library(dplyr)
+library(plyr)
+library(afex)
+library(survey)
+library(sjPlot)
+library(sjmisc)
+library(foreign)
+library(MASS)
+library(Hmisc)
+library(reshape2)
+library(ggeffects)
+library(ggpubr)
+library(jtools)
+library(emmeans)
+library(papaja)
+library(cowplot)
+library(beeswarm)
+library(shiny)
+options(mc.cores = parallel::detectCores())
+
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Vowel Harmony Experiment in Turkish (LDT 2)
+# for nonwords: harmonious vs. disharmonious
+
+```{r}
+
+VH = read.csv("new_data_VH_2NW_data.csv", sep=";", header=T)
+
+VH$tr=1000*VH$key_respTest.rt
+
+VHtr=subset(VH, tr > 250 & key_respTest.corr==1)
+
+tapply(VHtr$tr,list(VHtr$word_cond, VHtr$isHarmonic),mean)
+tapply(VH$key_respTest.corr,list(VH$word_cond, VH$isHarmonic),mean)
+
+# RT nonwords
+VHtr_w=subset(VHtr, word_cond=="nw")
+
+VHtr_w$isHarmonic=as.factor(VHtr_w$isHarmonic)
+contrasts(VHtr_w$isHarmonic) <- c(-.5,.5)   
+
+#brms maximal model words RT
+brms_VH_RT_nonword2 <- 
+  
+  brm(data = VHtr_w, tr ~  isHarmonic
+                    + (1 + isHarmonic|participant)
+                    + (1 | item_nr), 
+            warmup = 2000,
+            iter = 10000, 
+            chains = 4, 
+            family  = exgaussian(),
+            init  = 0,
+            sample_prior = TRUE,
+            control = list(adapt_delta = 0.95),
+            cores  = 4)
+
+summary(brms_VH_RT_nonword2)
+
+save(brms_VH_RT_nonword2, file="brms_VH_RT_nonword2.Rdata")
+             
+# Highest Density Intervals
+del_hdi = hdi(brms_VH_RT_nonword2, ci = c(0.50, 0.75, 0.89, 0.95))
+plot(del_hdi) + scale_fill_flat() + theme_apa()      
+                 
+
+# accuracy nonwords
+VH_w=subset(VH, word_cond=="nw")
+
+VH_w$isHarmonic=as.factor(VH_w$isHarmonic)
+contrasts(VH_w$isHarmonic) <- c(-.5,.5)
+
+#brms maximal model accuracy words
+brms_VH_acc_nonwords2 <- brm(data = VH_w, key_respTest.corr ~ isHarmonic + (1+isHarmonic|participant) + (1|item_nr), 
+            warmup = 2000,
+            iter = 10000, 
+            chains = 4, 
+            family  = bernoulli(),
+            init  = NULL,
+            sample_prior = TRUE,
+            control = list(adapt_delta = 0.95),
+            cores  = 4)
+
+summary(brms_VH_acc_nonwords2)
+
+save(brms_VH_acc_nonwords2, file="brms_VH_acc_nonwords2.Rdata")
+
+# Highest Density Intervals
+del_hdi = hdi(brms_VH_acc_nonwords2, ci = c(0.50, 0.75, 0.89, 0.95))
+plot(del_hdi) + scale_fill_flat() + theme_apa()
+```
+
