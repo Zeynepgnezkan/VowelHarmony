@@ -49,26 +49,47 @@ preproc <- function(data_dir = "new/data/"){
 } # end fun
 
 
-all_data <- preproc(data_dir = "new_2/data/")
+VH <- preproc(data_dir = "new_2/data/")
 
-all_data$word_cond <- ifelse(is.na(all_data$BlogFreqPm),"nw","word")
+VH$word_cond <- ifelse(is.na(VH$BlogFreqPm),"nw","word")
+#write_csv(VH, "new_data_VH_2_with3_new.csv")
 
-write_csv(all_data, "new_data_VH_2_with3_new.csv")
-
-pp<-all_data %>% group_by(participant,word_cond,isHarmonic) %>% summarise(meanrt = mean(key_respTest.rt,na.rm =T),
-                                                                      meanacc = mean(key_respTest.corr,na.rm = T)) 
-library(lme4)
-all_data$participant <- as.numeric(as.character(all_data$participant))
-all_data <- all_data %>%
-  mutate(subj = dense_rank(participant))
-
-all_data$isHarmonic <- factor(all_data$isHarmonic)
-all_data$word_cond <- factor(all_data$word_cond)
-
-all_data <- as.data.frame(all_data)
-mm <- lmer(key_respTest.rt ~ word_cond * isHarmonic, data = all_data)
-summary(mm)
+pp<-VH %>% group_by(email,participant,word_cond,isHarmonic) %>% summarise(meanrt = mean(key_respTest.rt,na.rm =T),
+                                               meanacc = mean(key_respTest.corr,na.rm = T)) 
 
 
+# remove şeyma
 
+VH <- VH %>% filter(!participant == 307430)
+VH %>% group_by(word_cond,isHarmonic) %>% summarise(meanrt = mean(key_respTest.rt,na.rm =T),
+                                                                          meanacc = mean(key_respTest.corr,na.rm = T)) 
+
+
+VH$tr=1000*VH$key_respTest.rt
+VH_manolo$tr=1000*VH_manolo$key_respTest.rt
+
+VHtr=subset(VH, tr > 250 & key_respTest.corr==1)
+
+VHtr_exclusion=subset(VH, tr > 250)
+
+VHtr_m=subset(VH_manolo, tr > 250 & key_respTest.corr==1)
+
+# not same means
+tapply(VHtr$tr,list(VHtr$word_cond, VHtr$isHarmonic),mean)
+tapply(VH_manolo$key_respTest.corr,list(VH_manolo$word_cond, VH_manolo$isHarmonic),sd)
+
+VH_m_c <- VHtr_m %>% dplyr::select(participant) %>% distinct()
+VH_c <- VHtr %>% dplyr::select(participant) %>% distinct()
+
+unique_participants_df1 <- setdiff(VH_m_c$participant, VH_c$participant)
+unique_participants_df2 <- setdiff(VH_c$participant, VH_m_c$participant)
+
+cat("Participants unique to Manolo:\n", unique_participants_df1, "\n")
+cat("Participants unique to Me:\n", unique_participants_df2, "\n")
+
+# not same means
+# you deleted 342439
+# I deleted 708245
+
+tapply(VH$key_respTest.corr,list(VH$word_cond, VH$isHarmonic),sd)
 
