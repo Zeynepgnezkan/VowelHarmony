@@ -66,30 +66,12 @@ VH %>% group_by(word_cond,isHarmonic) %>% summarise(meanrt = mean(key_respTest.r
 
 
 VH$tr=1000*VH$key_respTest.rt
-VH_manolo$tr=1000*VH_manolo$key_respTest.rt
+11644 -11032
+VHtr=subset(VH, key_respTest.corr==1)
+VHtr1=subset(VH, tr > 250)
 
-VHtr=subset(VH, tr > 250 & key_respTest.corr==1)
-
-VHtr_exclusion=subset(VH, tr > 250)
-
-VHtr_m=subset(VH_manolo, tr > 250 & key_respTest.corr==1)
-
-# not same means
-tapply(VHtr$tr,list(VHtr$word_cond, VHtr$isHarmonic),mean)
-tapply(VH_manolo$key_respTest.corr,list(VH_manolo$word_cond, VH_manolo$isHarmonic),sd)
-
-VH_m_c <- VHtr_m %>% dplyr::select(participant) %>% distinct()
-VH_c <- VHtr %>% dplyr::select(participant) %>% distinct()
-
-unique_participants_df1 <- setdiff(VH_m_c$participant, VH_c$participant)
-unique_participants_df2 <- setdiff(VH_c$participant, VH_m_c$participant)
-
-cat("Participants unique to Manolo:\n", unique_participants_df1, "\n")
-cat("Participants unique to Me:\n", unique_participants_df2, "\n")
-
-# not same means
-# you deleted 342439
-# I deleted 708245
-
+tapply(VHtr$tr,list(VHtr$word_cond, VHtr$isHarmonic),sd)
+##      harmonic notharmonic
+## nw   671.5774    667.2193
+## word 586.9242          NA
 tapply(VH$key_respTest.corr,list(VH$word_cond, VH$isHarmonic),sd)
-

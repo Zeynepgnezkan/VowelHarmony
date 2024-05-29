@@ -52,7 +52,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 
-VH = read.csv("new_data_VH_2NW_data.csv", sep=";", header=T)
+VH = read.csv("all_new_36data_NW.csv", sep=";", header=T)
 
 VH$tr=1000*VH$key_respTest.rt
 
@@ -60,6 +60,22 @@ VHtr=subset(VH, tr > 250 & key_respTest.corr==1)
 
 tapply(VHtr$tr,list(VHtr$word_cond, VHtr$isHarmonic),mean)
 tapply(VH$key_respTest.corr,list(VH$word_cond, VH$isHarmonic),mean)
+
+mean_and_se <- function(x) {
+  if (length(x) < 2) {
+    return(c(NA, NA))  # Return NA if there is insufficient data
+  }
+  mean_val <- round(mean(x), 2)
+  se_val <- round(sd(x) / sqrt(length(x)), 2)
+  c(mean_val, se_val)
+}
+
+
+
+# Apply the function using tapply
+result <- tapply(VHtr$tr, list(VHtr$word_cond, VHtr$isHarmonic), mean_and_se)
+result <- tapply(VH$key_respTest.corr, list(VH$word_cond, VH$isHarmonic), mean_and_se)
+
 
 # RT nonwords
 VHtr_w=subset(VHtr, word_cond=="nw")
